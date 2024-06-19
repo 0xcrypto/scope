@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"os"
-	"csv"
+	"scope/csv"
 )
 
 var inputFile string
