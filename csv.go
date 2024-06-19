@@ -1,3 +1,5 @@
+package main
+
 import (
 	"encoding/csv"
 	"flag"
@@ -30,7 +32,7 @@ func hackerone_csv() {
 			eligible_for_submission := columns[4]
 
 			if eligible_for_submission != "true" {
-				assetType = "out_of_scope"
+				assetType = "out-of-scope"
 			}
 
 			if identifier == "identifier" {
