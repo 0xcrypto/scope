@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"os"
-	"csv"
+	"github.com/0xcrypto/scope/csv"
 )
 
 var inputFile string
