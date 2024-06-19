@@ -1,5 +1,3 @@
-package csv
-
 import (
 	"encoding/csv"
 	"flag"
